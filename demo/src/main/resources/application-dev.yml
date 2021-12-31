@@ -1,0 +1,15 @@
+
+  datasource:
+    url: jdbc:db2://7c37dbaa-fa15-42ce-8a3e-945f6eb18781.bu6tc4nd0urletsa6ufg.databases.appdomain.cloud:30692/BLUDB:sslConnection=true;
+    username: ilw7kp0l
+    password: PlDpOGBrKgEZwhFa
+    driver-class-name: com.ibm.db2.jcc.DB2Driver
+
+    hikari:
+      maximumPoolSize: 2
+      minimumIdle: 1
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: false
